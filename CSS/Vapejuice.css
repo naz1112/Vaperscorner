@@ -78,3 +78,82 @@ ul li
 	top:25%;
 	
 }
+.Image1text
+{
+	position: absolute;
+	top: 55%;
+	left: 3%;
+	font-size:110%;
+}
+
+.Image1Price
+{
+	position: absolute;
+	top: 58%;
+	left: 6%;
+	font-size: 200%;
+	
+}
+
+.Image1Button
+{
+	position: absolute;
+	top:70%;
+	left:5%;
+}
+
+.Image2
+{
+	position: absolute;
+	top:25%;
+	left: 20%;
+	
+}
+.Image2text
+{
+	position: absolute;
+	top: 55%;
+	left: 25%;
+	font-size:110%;
+}
+
+.Image2Price
+{
+	position: absolute;
+	top: 58%;
+	left: 26%;
+	font-size: 200%;
+	
+}
+.Image2Button
+{
+	position: absolute;
+	top:70%;
+	left:25%;
+}
+.Image3
+{
+	position:absolute;
+	top:25%;
+	left:40%;
+}
+.Image3text
+{
+	position: absolute;
+	top: 55%;
+	left: 43%;
+	font-size:110%;
+}
+.Image3Price
+{
+	position: absolute;
+	top:58%;
+	left:46%;
+	font-size:200%;
+}
+.Image3Button
+{
+	position:absolute;
+	top:70%;
+	left:45%;
+}
