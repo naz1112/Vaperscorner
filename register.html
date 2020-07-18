@@ -1,0 +1,85 @@
+﻿<html>
+<head>
+	<title>
+vape-corner - Customer Registration
+	</title>
+	<style>
+			table
+			{
+			background-color:#348cd3;
+			width:30%;
+			margin:auto;
+			}
+			body
+			{
+			font-family: Arial;
+			background-color: #eae3e382;
+			text-align: center;
+			margin: 0px;
+			}
+			.Content
+			{
+			position: absolute;
+			width: 100%;
+			margin: 0px auto;
+			top: 150px;
+			}
+			tr td
+			{
+			padding: 15px;
+			color: #ffffff;
+			}
+			input[type="submit"]
+			{
+			padding: 10px 30px;
+			margin-top: 20px;
+			}
+			input[type="text"] {
+			padding: 5px;
+			}
+			input[type="password"] {
+			padding: 5px;
+			}
+			input#reset
+			{
+			padding: 10px 30px;
+			margin-top: 20px;
+			}
+		</style>
+</head>
+<div class="Content">		
+ <form id="form1" name="form1" method="post" action="register.check.php">
+	<h2>Register new User for vape-corner Website</h2>
+	<table width="500" border="0">
+		<tr>
+			<td colspan="2" class="style1"><p>First Name:</p></td>
+			<td width="200" class="style1"><label><input name="firstname" type="text" id="firstname" maxlength=”10” /></label></td></tr>
+		<tr>
+			<td colspan="2" class="style1">Surname:</td>
+			<td class="style1"><label><input name="surname" type="text" id="surname" maxlength=”10” /> </label></td>
+		</tr>
+		<tr>
+			<td colspan="2" class "style1">E-mail address:</td>
+			<td class="style1"><label><input name="e-mail" type="text" id="e-mail" maxlength=”20” /></label></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="style1">Password:</td>
+			<td class="style1"><label><input name="password" type="password" id="password" maxlength=”30” /></label></td>
+		</tr>
+		 <tr>
+			<td colspan="2" class="style1"><p>Confirmed password:</p></td>
+			<td class="style1"><label><input name="re-password" type="password" id="re-password" /></label></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="style1"><label></label> <label></label></td>
+		</tr>
+		<tr>
+		  	<td width="165"	class="style1">&nbsp;</td>
+			<td width="121"	class="style1"><input name="reset"	type="reset"	id="reset"	value="Reset" /></td>
+			<td class= "style1"><input name="Submit"	type="submit" id="submit"	value="Submit" /></td>
+		</tr>
+			</table>
+		</form>	
+</div>
+</body>
+</html>		

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact</title>
+	
+<link href="Contact.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!-- Container to allow for DIVS to be nested inside to create the top part of Website -->
+<div class="TopPageContainer">
+  <div id="Logo"><img src="Images/Logo for website.jpg" width="371" height="89" alt=""/></div>
+  <div id ="SearchBar"><form name="jksearch" action="http://www.google.com/search" method="get" onSubmit="jksitesearch(this)">
+<p>Search Button:<br/>
+<input id="hiddenquery" type="hidden" name="q" />
+<input name="qfront" type="text" style="width: 200px" value="navigator object" /> <input type="submit" value="Search" /><br />
+<div style="font: bold 11px Verdana;">Google:<input name="se" type="radio" checked>  Yahoo:<input name="se" type="radio">  MSN:<input name="se" type="radio">
+</div>
+<script type="text/javascript">
+
+// All-in-one Internal Site Search script- By JavaScriptKit.com (http://www.javascriptkit.com)
+// For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/
+// This notice must stay intact for use
+
+//Enter domain of site to search.
+var domainroot="www.javascriptkit.com"
+
+var searchaction=[ //form action for the 3 search engines
+"http://www.google.com/search",
+"http://search.yahoo.com/search",
+"http://search.msn.com/results.aspx"
+]
+
+var queryfieldname=["q","p","q"] //name of hidden query form for the 3 search engines
+
+function switchaction(cur, index){
+cur.form.action=searchaction[index]
+document.getElementById("hiddenquery").name=queryfieldname[index]
+}
+
+function jksitesearch(curobj){
+for (i=0; i< document.jksearch.se.length; i++){ //loop through radio to see which is checked
+if (document.jksearch.se[i].checked==true)
+switchaction(document.jksearch.se[i], i)
+}
+document.getElementById("hiddenquery").value="site:"+domainroot+" "+curobj.qfront.value
+}
+</script>
+</p>
+</form>
+</div>
+  <div id="Navigation">
+	  <ul>
+		  <li><a href="Index.html">Home Page</a></li>
+		  <li><a href="Vapejuice.html">Vape Juice</a></li>
+		  <li><a href="Vapemods.html">Vape Mods</a></li>
+		  <li><a href="Aboutus.html">About Us</a></li>
+		  <li><a href="contact.html">Contact us</a></li>
+	  </ul>
+  </div>
+</div>
+	  <div id="Title">
+<a href="login.html">
+    <button>Login</button>
+</a> 	
+<a href="register.html">
+    <button>Register</button>
+</a>   
+</div>
+<div class="Content">
+  <p>Contact me page</p>
+  <p>Contact us:</p>
+  <p>Vape ON</p>
+  <p>12 Burton wood drive</p>
+  <p>Perry barr</p>
+  <p>B12 8rt</p>
+  <p>Tel: 0121 449 2222</p>
+</div>
+<div id="Googlemaps">
+  <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university of san francisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><a href="https://www.pureblack.de">USE THE MAP TO FIND US!</a>
+    <style>
+    .mapouter{overflow:hidden;height:500px;width:600px;}.gmap_canvas {background:none!important;height:500px;width:600px;}
+    </style>
+  </div>
+	</div>
+</body>
+</html>
