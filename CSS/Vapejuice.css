@@ -72,4 +72,9 @@ ul li
     z-index: 3;
     visibility: visible;
 }
-
+.Image1
+{
+	position: absolute;
+	top:25%;
+	
+}
