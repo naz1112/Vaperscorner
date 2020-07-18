@@ -36,19 +36,6 @@ div#Navigation ul li a
 	z-index: 3;
 	visibility: visible;
 }
-#SearchBar
-{
-    position: relative;
-    left: 0;
-    top: 137px;
-    width: 294px;
-    height: 106px;
-    z-index: 3;
-    visibility: visible;
-    background: #F3F3F3;
-    float: right;
-    padding: 4px 10px 4px;
-}
 #Navigation
 {
 	position: absolute;
@@ -74,16 +61,7 @@ ul li
 	color: white;
 	background: black;
 }
-.Content
-{
-    position: absolute;
-    left: 15px;
-    top: 340px;
-    width: 1140px;
-    height: 836px;
-    z-index: 3;
-    visibility: visible;
-}
+
 #Title
 {
     position: absolute;
@@ -94,22 +72,4 @@ ul li
     z-index: 3;
     visibility: visible;
 }
-#addrecord
-{
-    position: absolute;
-    left: 35px;
-    top: 300px;
-    width: 139px;
-    height: 29px;
-    visibility: visible;
-    margin-left: auto;
-    margin-right: auto;
-}
-tr
-{
-	text-align: center;
-}
-td img
-{
-    height: 240px;
-}
+
