@@ -94,13 +94,13 @@ ul li
 	font-size: 200%;
 	
 }
-
 .Image1Button
 {
-	position: absolute;
+	position:absolute;
 	top:70%;
 	left:5%;
 }
+
 
 .Image2
 {
@@ -156,4 +156,180 @@ ul li
 	position:absolute;
 	top:70%;
 	left:45%;
+}
+.Image4
+{
+		position: absolute;
+		top:25%;
+		left:63%;
+}
+.Image4text
+{
+	position: absolute;
+	top: 55%;
+	left: 67%;
+	font-size:110%;
+}
+.Image4Price
+{
+	position: absolute;
+	top:58%;
+	left:69%;
+	font-size:200%;
+}
+.Image4Button
+{
+	position:absolute;
+	top:70%;
+	left:68%;
+}
+.Image4
+{
+		position: absolute;
+		top:25%;
+		left:63%;
+}
+.Image4text
+{
+	position: absolute;
+	top: 55%;
+	left: 67%;
+	font-size:110%;
+}
+.Image4Price
+{
+	position: absolute;
+	top:58%;
+	left:69%;
+	font-size:200%;
+}
+.Image4Button
+{
+	position:absolute;
+	top:70%;
+	left:68%;
+}
+
+.Image5
+{
+	position: absolute;
+	top:25%;
+	left:83%;
+
+}
+
+.Image5text
+{
+	position: absolute;
+	top: 55%;
+	left: 88%;
+	font-size:110%;
+}
+.Image5Price
+{
+	position: absolute;
+	top:58%;
+	left:89%;
+	font-size:200%;
+}
+.Image5Button
+{
+	position:absolute;
+	top:70%;
+	left:88%;
+}
+.Image6
+{
+	position: absolute;
+	top:75%;
+	left:1%;
+
+}
+.Image6text
+{
+	position: absolute;
+	top: 105%;
+	left: 5%;
+	font-size:110%;
+}
+.Image6Price
+{
+	position: absolute;
+	top: 108%;
+	left: 6%;
+	font-size: 200%;
+	
+}
+
+.Image6Button
+{
+	position:absolute;
+	top:119%;
+	left:5%;
+}
+.Image7
+{
+	position: absolute;
+	top:75%;
+	left:21%;
+
+}
+.Image7Button
+{
+	position:absolute;
+	top:119%;
+	left:5%;
+}
+.Image7text
+{
+	position:absolute;
+	top:105%;
+	left:23%;	
+}
+
+.Image7Price
+{
+	position: absolute;
+	top: 108%;
+	left: 26%;
+	font-size: 200%;
+	
+}
+
+.Image7Button
+{
+	position:absolute;
+	top:119%;
+	left:25%;
+}
+.Image8
+{
+	position: absolute;
+	top:75%;
+	left:41%;
+
+}
+
+.Image8text
+{
+	
+	position:absolute;
+	top:105%;
+	left:45%;
+}
+
+.Image8Price
+{
+	position: absolute;
+	top: 108%;
+	left: 47%;
+	font-size: 200%;
+	
+}
+
+.Image8Button
+{
+	position:absolute;
+	top:119%;
+	left:46%;
 }
