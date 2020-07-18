@@ -1,5 +1,33 @@
 /* CSS to allow for the Div tags to become AP Div tags allowing me to customize there locations more quickly */
-.TopPageContainer 
+
+body
+{
+	background: #fcc;
+}
+
+@media screen and (min-width: 500px)
+{
+	body
+	{
+		background-color: #cfc;
+	}
+}
+
+
+@media screen and (min-width: 1000px)
+{
+	body
+	{
+		background: white;
+	}
+
+
+}
+
+
+
+
+.TopPageContainer
 {
 	position: absolute;
 	left: 0px;
@@ -20,7 +48,7 @@
 	z-index: 3;
 	visibility: visible;
 }
-div#Navigation ul li a 
+div#Navigation ul li a
 {
     color: #fff;
     text-decoration: none;
@@ -86,7 +114,7 @@ ul li
 {
 	position: absolute;
 	top:115%;
-	
+
 }
 .Image1text
 {
@@ -102,7 +130,7 @@ ul li
 	top: 248%;
 	left: 6%;
 	font-size: 200%;
-	
+
 }
 .Image1Button
 {
@@ -115,14 +143,14 @@ ul li
 .Image2
 {
 	position: absolute;
-	top:25%;
+	top:115%;
 	left: 20%;
-	
+
 }
 .Image2text
 {
 	position: absolute;
-	top: 55%;
+	top: 235%;
 	left: 25%;
 	font-size:110%;
 }
@@ -130,122 +158,97 @@ ul li
 .Image2Price
 {
 	position: absolute;
-	top: 58%;
-	left: 26%;
+	top: 248%;
+	left: 25%;
 	font-size: 200%;
-	
+
 }
 .Image2Button
 {
 	position: absolute;
-	top:70%;
-	left:25%;
+	top:290%;
+	left:24%;
 }
 .Image3
 {
-	position:absolute;
-	top:25%;
-	left:40%;
+	position: absolute;
+	top:28%;
+	left: 40%;
 }
 .Image3text
 {
 	position: absolute;
-	top: 55%;
-	left: 43%;
-	font-size:110%;
+	top: 57%;
+	left: 47%;
+	font-size:120%;
 }
 .Image3Price
 {
 	position: absolute;
-	top:58%;
+	top:61%;
 	left:46%;
 	font-size:200%;
 }
 .Image3Button
 {
 	position:absolute;
-	top:70%;
+	top:71%;
 	left:45%;
 }
 .Image4
 {
 		position: absolute;
-		top:25%;
-		left:63%;
+		top:28%;
+		left:64%;
 }
 .Image4text
 {
 	position: absolute;
-	top: 55%;
+	top: 57%;
 	left: 67%;
 	font-size:110%;
 }
 .Image4Price
 {
 	position: absolute;
-	top:58%;
-	left:69%;
+	top:61%;
+	left:71%;
 	font-size:200%;
 }
 .Image4Button
 {
 	position:absolute;
-	top:70%;
-	left:68%;
+	top:71%;
+	left:70%;
 }
-.Image4
-{
-		position: absolute;
-		top:25%;
-		left:63%;
-}
-.Image4text
-{
-	position: absolute;
-	top: 55%;
-	left: 67%;
-	font-size:110%;
-}
-.Image4Price
-{
-	position: absolute;
-	top:58%;
-	left:69%;
-	font-size:200%;
-}
-.Image4Button
-{
-	position:absolute;
-	top:70%;
-	left:68%;
-}
+
 
 .Image5
 {
-	position: absolute;
-	top:25%;
-	left:83%;
+	position:absolute;
+	top:27%;
+	left:84%;
 
 }
 
 .Image5text
 {
 	position: absolute;
-	top: 55%;
-	left: 88%;
-	font-size:110%;
+	top: 56%;
+	left: 90%;
+	font-size:140%;
 }
 .Image5Price
 {
 	position: absolute;
-	top:58%;
+	top:61%;
 	left:89%;
 	font-size:200%;
 }
 .Image5Button
 {
 	position:absolute;
-	top:70%;
+	top:71%;
 	left:88%;
 }
 .Image6
@@ -258,23 +261,23 @@ ul li
 .Image6text
 {
 	position: absolute;
-	top: 105%;
+	top: 100%;
 	left: 5%;
 	font-size:110%;
 }
 .Image6Price
 {
 	position: absolute;
-	top: 108%;
+	top: 104%;
 	left: 6%;
 	font-size: 200%;
-	
+
 }
 
 .Image6Button
 {
 	position:absolute;
-	top:119%;
+	top:115%;
 	left:5%;
 }
 .Image7
@@ -293,23 +296,23 @@ ul li
 .Image7text
 {
 	position:absolute;
-	top:105%;
-	left:23%;	
+	top:102%;
+	left:26%;
 }
 
 .Image7Price
 {
 	position: absolute;
-	top: 108%;
+	top: 105%;
 	left: 26%;
 	font-size: 200%;
-	
+
 }
 
 .Image7Button
 {
 	position:absolute;
-	top:119%;
+	top:115%;
 	left:25%;
 }
 .Image8
@@ -322,7 +325,7 @@ ul li
 
 .Image8text
 {
-	
+
 	position:absolute;
 	top:105%;
 	left:45%;
@@ -334,7 +337,7 @@ ul li
 	top: 108%;
 	left: 47%;
 	font-size: 200%;
-	
+
 }
 
 .Image8Button

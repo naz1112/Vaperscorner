@@ -1,4 +1,28 @@
 /* CSS to allow for the Div tags to become AP Div tags allowing me to customize there locations more quickly */
+
+body
+{
+	background: #fcc;
+}
+
+@media screen and (min-width: 500px)
+{
+	body
+	{
+		background-color: #cfc;
+	}
+}
+
+
+@media screen and (min-width: 1000px)
+{
+	body
+	{
+		background: white;
+	}
+
+
+}
 .TopPageContainer 
 {
 	position: absolute;
