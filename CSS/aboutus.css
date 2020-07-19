@@ -60,19 +60,7 @@ div#Navigation ul li a
     z-index: 3;
     visibility: visible;
 }
-#SearchBar
-{
-    position: relative;
-    left: 0;
-    top: 137px;
-    width: 294px;
-    height: 106px;
-    z-index: 3;
-    visibility: visible;
-    background: #F3F3F3;
-    float: right;
-    padding: 4px 10px 4px;
-}
+
 #Navigation
 {
 	position: absolute;

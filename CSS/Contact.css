@@ -59,19 +59,7 @@ div#Navigation ul li a
     z-index: 3;
     visibility: visible;
 }
-#SearchBar
-{
-    position: relative;
-    left: 0;
-    top: 137px;
-    width: 294px;
-    height: 106px;
-    z-index: 3;
-    visibility: visible;
-    background: #F3F3F3;
-    float: right;
-    padding: 4px 10px 4px;
-}
+
 #Navigation
 {
 	position: absolute;
@@ -100,12 +88,13 @@ ul li
 .Content
 {
     position: absolute;
-    left: 20px;
+    left: 100px;
     top: 284px;
     width: 712px;
     height: 556px;
     z-index: 3;
     visibility: visible;
+	font-size:200%;
 }
 div#Googlemaps
 {
